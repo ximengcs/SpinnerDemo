@@ -44,6 +44,6 @@ public class RotateController : MonoBehaviour
 
     private float InchingFun(float pro) {
         //return (4 - time * time) * 0.04f;
-        return Mathf.Pow(0.003f, pro);
+        return Mathf.Pow(0.01f, pro);
     }
 }
